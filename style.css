@@ -1,0 +1,183 @@
+body {
+    background-color: white;
+}
+
+.wrapper {
+    width: 90%;
+    font-size: 16px;
+    max-width: 43.75em;
+    margin: 1em auto;
+    border: 2px solid #000;
+    display: flex;
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    border: 2px solid #000;
+    display: flex;
+
+}
+
+.sub-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.wrapper h3 {
+    color: rgb(9, 9, 24);
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.main-container input {
+    display: block;
+    width: 95%;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid #504949;
+    border-radius: 2px;
+    outline: none;
+}
+
+/* .main-container select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #504949;
+    border-radius: 2px;
+    outline: none;
+} */
+
+.main-container input:focus {
+    border-color: #1a3fe4;
+}
+.container-1,
+.container-2 {
+    background-color: crimson;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3.5px rgb(28,0.8, 0.6);
+}
+.container-3 {
+    background-color: crimson;
+    width: 205%;
+    height: 80px;
+    margin-left: 5%;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px rgb(28,0.8, 0.6);
+    margin: 0;
+    padding: 10px;
+}
+.container-3 p {
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.container-3 span {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: antiquewhite;
+
+}
+.submit-1{
+    font-size: 25px;
+    margin-top: 35px;
+    background-color: #d43434;
+}
+.submit-2 {
+    font-size: 25px;
+    margin-top: 25px;
+    background-color:  #d43434;
+}
+
+.list {
+    background-color: rgb(218, 238, 238);
+    width: 205%;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 3px;
+    box-shadow: 2px 3px 3px rgb(28,0.8, 0.6);
+    
+}
+.small-btn {
+    display: flex;
+    background-color: #f08181;
+   
+}
+.hide {
+    /* display: none; */
+    
+}
+.error {
+    color: #ebc1c5;
+}
+/* .container-1 {
+    background-color: azure;
+    border: 2px solid #000;
+    font-size: 30px;
+    margin-left: 10px;
+    width: 300px;
+    height: 200px;
+}
+#budget {
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#btn-1 {
+    width: 150px;
+    height: 40px;
+    margin-left: 10px; 
+    
+}
+
+.container-2 {
+    background-color: azure;
+    border: 2px solid #000;
+    margin-left: 10px;
+    width: 300px;
+    height: 200px;
+}
+#expense{
+    margin: 0;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#category {
+    width: 208px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#money-minus {
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#btn-2 {
+    width: 150px;
+    height: 40px;
+    margin-left: 10px; 
+    margin-top: 15px;
+    
+} */
